@@ -1,0 +1,35 @@
+*{
+margin:0;
+padding: 0;	
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.img{
+
+    background-image: url(image/carro.jpeg);
+    background-size: strech-width;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.cabecalho{
+    background-color: black;
+    height: 10vh;    
+}
+.links{
+    margin-right: 50px;
+    padding-top: 20px ;
+}
+.links a{
+
+margin: 10px;
+float: right;
+text-decoration: none;
+color: white;
+font-size: 20px;
+
+}
+a:hover{
+    color: gray;
+}

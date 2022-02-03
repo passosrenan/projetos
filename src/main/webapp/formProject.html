@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="formCss.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&family=Roboto+Condensed:wght@300&display=swap"
+    rel="stylesheet">
+  <title>Form</title>
+</head>
+
+<body>
+
+  <section class="pai">
+    <form action="formulario" method="post">
+      <label>
+        <H2>Nome</H2>
+      </label>
+      <input required="required" type="text" name="nome">
+      <small id="emailHelp">Este campo é obrigatório.</small>
+
+      <label>
+        <h2>Sobrenome</h2>
+      </label>
+      <input required="required" type="text" name="sobrenome">
+      <small id="emailHelp">Este campo é obrigatório.</small>
+
+      <div class="divEmail">
+        <label>
+          <h2>Endereço de email</h2>
+        </label>
+        <input required="required" type="email" name="email">
+        <small id="emailHelp">Este campo é obrigatório.</small>
+      </div>
+
+      <div class="divIdade">
+        <label>
+          <h2>Idade</h2>
+        </label>
+        <input type="number" name="idade" required="required">
+        <small id="emailHelp">Este campo é obrigatório.</small>
+      </div>
+
+      <div class="divGenero">
+        <h2>Genero</h2>
+        <select name="genero">
+          <option value="Sr">Masculino</option>
+          <option value="Sra">Feminino</option>
+        </select>
+         
+      </div>
+      <footer class="botom">
+        <button type="submit"><p>Enviar</p></button>
+      </footer>
+      
+    </form>
+  </section>
+
+
+</body>
+
+</html>

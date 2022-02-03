@@ -1,0 +1,37 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.pai{
+    background-color: #041122;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+}
+input{
+ margin-left: 130px;
+}
+label{
+color: white;
+}
+.divGenero{
+    color: white;
+}
+input:hover{
+    color: #a6aec1;
+}
+small{
+color: white;
+}
+button{
+font-size: 20px;
+margin-top: 5px;
+font-family: 'Lato', sans-serif;
+padding: 3px 20px;
+}
+button p :hover{
+    color:#041122 ;
+}
+.botom{
+    padding: 15px;
+}
